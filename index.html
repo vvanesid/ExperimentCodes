@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment</title>
+    <style>
+img.logo {
+    width: 200px;
+    display: block;
+    float: left;
+    margin: 0;
+} 
+ video {
+    object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+ }
+
+    </style>
+</head>
+<body>
+    <video autoplay muted loop>
+        <source src="2022 01 29 [P1] GhostBlade.mp4" type="video/mp4">
+      </video>
+   <img class="logo" src="IVE Ivan Abraham.gif" alt="">
+ <form action="">
+    <label for="nama">
+    Nama Lengkap : <input id="nama" type="text" placeholder="Masukkan Nama"></label><br>
+     <label for="jk">
+        Jenis Kelamin : <select name="" id="jk">
+            <option value="pria">Pria</option>
+            <option value="wanita">Wanita</option>
+        </select>
+     </label>
+<br>
+     <label for="masak" for="asist">Skill : 
+       <input type="checkbox" name="" id="masak">Memasak
+     </label>
+     <label for="asist"><input type="checkbox" id="asist">Asisten</label>
+     <br>
+     <label for="jakarta">Domisili : <input type="radio" name="domisili" id="jakarta">Jakarta</label>
+     <label for="bandung"><input type="radio" name="domisili" id="bandung">Bandung</label>
+     <br>
+    <label for="cari">
+     <input type="search" name="cari" id="cari" placeholder="Pencarian">
+    </label><br>
+    <textarea name="txt" id="txt" cols="20" rows="2" placeholder="Masukkan Teks"></textarea>
+    <br><br>
+    <label for="submit"><button id="submit">Submit</button></label>
+    <label for="reset"><button id="reset">Reset</button></label>
+
+ </form>
+</body>
+</html>
