@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: ubuntu;
+}
+
+body {background: #f7f7f7}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Secular+One&family=Ubuntu:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+/* Main Styles */
+main {
+    display: flex;
+}
+
+.main-news {
+    border: 2px solid;
+    display: flex;
+}
+
+/* Navbar */
+nav {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15px;
+    border-bottom: 2px solid #c1cdcd;
+}
+nav span {color: #15f4ee;}
+nav h1 {font-size: 30px;}
+
+/* Breaking News */
+
+.breaking-news-content a, .breaking-news-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.breaking-news {
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.breaking-news h1 {
+    background: #1c86ee;
+    padding: 5px 15px;
+}
+
+.breaking-news-content a {padding: 20px 15px;}
+
+.breaking-news-content {
+    border-radius: 2px;
+    border-bottom: 2px solid #8b9dc3;
+    border-left: 2px solid #8b9dc3;
+    border-right: 2px solid #8b9dc3;
+}
+.sec {border-left: 2px solid;}
+.breaking-news img {width: 200px;}
+
+/* Latest News */
+.latest-news {
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.latest-news a {
+    border-bottom: 2px solid #8b9dc3;
+    padding: 10px 0;
+}
+.latest-news h2 {border-top: 5px solid #3b5998;}
+
+/* Featured News */
+.featured-news {
+    border-left: 2px solid;
+    padding: 0 20px;
+}
+
+.main-featured {
+    display: flex;
+    gap: 20px;
+    padding: 0 0 30px 0;
+    border-bottom: 2px solid;
+}
+
+.main-featured-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.main-featured-list h3 {font-size: 25px;}
+.main-featured img {width: 400px;}
+
+.bottom-featured {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 20px 0 0 0;
+}
+.bottom-featured h4 {padding: 10px 0;}
+.bottom-featured img {width: 300px;}
+
+/* Todays Pick */
+.todays-pick {
+    border: 1px solid;
+    padding: 10px;
+}
+
+.todays-content {
+    display: flex;
+    gap: 20px;
+}
+
+.todays-pick h3 {padding: 10px 0;}
+.todays-content img {width: 300px;}
+
+/* Right-bar */
+.right-bar {
+    overflow: hidden;
+}
+
+.right-bar img {
+    height: 250px;
+    width: 300px;
+}
